@@ -48,12 +48,6 @@ body {
   width: 100px;
   height: 100px;
 }
-.restart {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 /* Styling buttons and other elements while hovering on them  */
 button {
@@ -61,10 +55,8 @@ button {
   background-color: #fdba74;
   border-radius: 9%;
 }
-.restart button {
+.restart {
   width: fit-content;
-  border-radius: 4%;
-  height: fit-content;
 }
 button:hover {
   background-color: #d1d5db;
