@@ -1,0 +1,74 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+}
+
+/* The header Style */
+.header {
+  background-color: #fdba74;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The main-content includes the buttons where the user makes his choice, The game Grid and the restart Button */
+.main-content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The top of main-content = the choices of the user */
+.userChoice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.ask-for-choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  margin-top: 20px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.game-grid-Element {
+  border: soild 2px black;
+  background-color: #fdba74;
+  width: 100px;
+  height: 100px;
+}
+.restart {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling buttons and other elements while hovering on them  */
+button {
+  width: 100px;
+  background-color: #fdba74;
+  border-radius: 9%;
+}
+.restart button {
+  width: fit-content;
+  border-radius: 4%;
+  height: fit-content;
+}
+button:hover {
+  background-color: #d1d5db;
+}
+.game-grid-Element:hover {
+  background-color: #e5e7eb;
+}
